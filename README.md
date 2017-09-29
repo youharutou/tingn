@@ -61,7 +61,7 @@ Tingn.js can compile the upper template and return result just like:
     Tingn("tpl.html", {
         data: {"goods": goods, "emp": emp}
     }, function(data){
-        // param data is compiled results.
+        // data is the compiled results.
         $(".container").html(data);
     });
 ```
