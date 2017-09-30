@@ -4,7 +4,7 @@ Tingn.js can compile the template that is similar to twig.
 
 template example:
 
-```markdown
+```html
 <ul>
     {% if !empty(goods) && !empty(emp) %}
     {% for good in goods %}
@@ -26,7 +26,7 @@ template example:
 ```
 Tingn.js can compile the upper template and return result just like:
 
-```markdown
+```html
 <ul>
     <li class="item_box " data-index="0"><span>goods A</span> <span>18.00</span>
         <p class="attr_item" data-index="0">big</p>
