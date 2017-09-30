@@ -51,7 +51,7 @@ Tingn.js can compile the upper template and return result just like:
 
 ### Usage
 
-```markdown
+```
     var goods = [
         {goods_id: 2, goods_name: "goods A", goods_price: "18.00", is_fit: 0, attrs: [{attr_id: 1, attr_name: "big"}, {attr_id: 2, attr_name: "small"}]},
         {goods_id: 21, goods_name: "goods B", goods_price: "10.00", is_fit: 1, attrs: [{attr_id: 3, attr_name: "hot"}, {attr_id: 4, attr_name: "cool"}]},
